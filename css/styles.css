@@ -1,0 +1,118 @@
+@font-face {
+	font-family: theFont;
+	src: url(../font/San-Francisco-Pro-Fonts-master/SF-Pro-Display-Regular.otf);
+  }
+
+  @font-face {
+	font-family: theBoldFont;
+	src: url(../font/San-Francisco-Pro-Fonts-master/SF-Pro-Display-Medium.otf);
+  }
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: theFont;
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(42, 46, 49);
+	color: #484D53
+}
+
+header h1 {
+	font-family: theBoldFont;
+	font-size: 1.7rem;
+	color: #484D53;
+	margin-bottom: 10px;
+}
+
+.searchbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #6F7276;
+	background-color: #C3C9CD;
+	padding: 8px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	font-size: 1.2rem;
+}
+
+.searchbar,
+header h1 {
+	margin: 20px 15px 20px 10px;
+
+}
+
+.search-div p {
+	float: left;
+}
+
+.search-div img {
+	margin-right: 13px;
+	float: left;
+}
+
+.profile {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 5px;
+	font-size: .65rem;
+	color: #6F7276;
+}
+
+.settings-container {
+	margin-top: 0;
+	width: 320px;
+	min-height: 100vh;
+	background: #DBE0E4;
+}
+
+.profile,
+.setting-card {
+	background-color: #fff;
+	margin-bottom: 50px;
+}
+
+.setting {
+	border-bottom: 1px solid #C3C9CD;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+}
+
+.float-left {
+	display: flex;
+	align-items: center;
+}
+
+.float-left img,
+.float-left p {
+	float: left;
+}
+
+.float-left img {
+	margin-right: 10px;
+	border-bottom: none;
+}
+
+.name-right {
+	display: flex;
+	align-items: center;
+}
+
+.name-right p {
+	margin-right: 15px;
+	font-size: .8rem;
+}
+
+.arrow {
+	margin-right: 10px;
+}
